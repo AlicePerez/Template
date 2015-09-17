@@ -1,0 +1,379 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+.Principal {
+  background: url("../image/portada.png") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin-top: -30px !important;
+  margin-bottom: 0;
+}
+.Service {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+.Newsletter {
+  background: #ccc;
+  width: 100%;
+  height: auto;
+}
+.Final {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+.Message {
+  display: inline-block;
+  float: left;
+  padding: 1em;
+  width: 30%;
+  margin-top: 5em;
+  margin-left: 10em;
+}
+.Message-text {
+  margin-top: -40px;
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+}
+.Message-icons {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+}
+.Name {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+}
+.Name-brand {
+  font-variant: normal;
+  font-weight: lighter;
+  color: #fff;
+  font-family: 'Pacifico';
+  font-size: 30px;
+}
+.Name-dot {
+  color: #2ecc71;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
+.Icons-bg {
+  margin: 0.5em;
+  padding: 1em;
+  width: auto;
+  background: rgba(0,0,0,0.5);
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.Icons-bg:hover {
+  background: #2ecc71;
+}
+.Hand {
+  display: inline-block;
+  width: 45%;
+  height: auto;
+}
+.Hand-img {
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+}
+@media (max-width: 800px) {
+  .Hand-img {
+    display: none;
+  }
+  .Message {
+    width: 80%;
+    float: right;
+    text-aling: center;
+    margin-left: 1px;
+  }
+  .Message-text {
+    width: 80%;
+    font-size: 18px;
+  }
+}
+@media (min-width: 801px) and (max-width: 1100px) {
+  .Message {
+    margin-top: 0;
+    margin-left: 5em;
+  }
+  .Message-text {
+    width: 80%;
+    font-size: 20px;
+  }
+}
+.Service-columns {
+  width: 100%;
+  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.Column {
+  margin: 50px 0 50px 0;
+  display: inline-block;
+  width: 350px;
+  position: relative;
+}
+.Column-container {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  background: #2ecc71;
+}
+.Column-text {
+  margin: 1em;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+.Column-image {
+  margin-top: 42px;
+  margin-left: 2.5px;
+}
+@media (max-width: 400px) {
+  .Column {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 250px;
+  }
+}
+@media (max-width: 700px) {
+  .Column {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 300px;
+  }
+}
+@media (min-width: 801px) and (max-width: 1100px) {
+  .Column {
+    margin: 0 auto;
+    width: 300px;
+  }
+  .Service-columns {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+  }
+}
+.Title {
+  font-size: 22px;
+}
+.P-text {
+  color: #aaa;
+}
+.Left {
+  width: 35%;
+  padding-left: 150px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  float: left;
+}
+.Left-text {
+  line-height: 1.5;
+  font-size: 16px;
+}
+.Left-title {
+  font-size: 24px;
+}
+.Left-letter {
+  color: #888;
+}
+@media (max-width: 800px) {
+  .Left {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    text-aling: center;
+    background: #ccc;
+  }
+}
+@media (min-width: 801px) and (max-width: 1000px) {
+  .Left {
+    width: 100%;
+    margin: 0 auto;
+    text-aling: center;
+    padding-left: 20px;
+  }
+}
+@media (min-width: 1001px) and (max-width: 1300px) {
+  .Left {
+    padding-left: 20px;
+  }
+}
+.Input {
+  height: 50px;
+  width: 250px;
+  padding-left: 25px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border: 1px solid #ccc;
+}
+@media (max-width: 400px) {
+  .Input {
+    width: 150px;
+  }
+}
+@media (min-width: 1001px) and (max-width: 1300px) {
+  .Input {
+    width: 180px;
+  }
+}
+.Buttom {
+  height: 55px;
+  width: 150px;
+  padding: 5px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: #fff;
+  background: #2ecc71;
+  border: none;
+  margin-left: -5px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+}
+@media (max-width: 400px) {
+  .Buttom {
+    width: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .Buttom {
+    width: 100px;
+  }
+}
+.Right {
+  display: inline-block;
+  padding-top: 40px;
+  margin-left: 150px;
+  width: 35%;
+  margin-bottom: 100px;
+}
+@media (max-width: 800px) {
+  .Right {
+    display: none;
+  }
+}
+.Final-Container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.Final-quotes {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: #aaa;
+  font-size: 18px;
+  font-family: font-family 'Roboto', sans-serif;
+  font-style: italic;
+}
+.Quote {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.Quote-autor {
+  font-size: 18px;
+  font-family: font-family 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.Photo {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+.Photo-image {
+  margin: 3px;
+  width: 45px;
+  height: 50px;
+}
+.Final-message {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+}
+.Final-GetInTouch {
+  font-size: 22px;
+  font-family: font-family 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.Final-text {
+  color: #aaa;
+  font-size: 16px;
+  font-family: font-family 'Roboto', sans-serif;
+}
+.icon {
+  width: 35px;
+  height: 35px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #ddd;
+  text-align: center;
+  display: inline-block;
+  margin: 3px;
+}
+.icon:hover {
+  background: #2ecc71;
+}
+.icon-img {
+  width: 20px;
+  margin-top: 8px;
+}
+.Foot {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 50px 0px 50px;
+}
+.Foot-link {
+  text-decoration: none;
+  margin: 20px;
+  color: #808080;
+  font-size: 18px;
+}
+@media (max-width: 800px) {
+  .Foot {
+    padding: 5px;
+    display: block;
+    width: 100%;
+  }
+  .Foot-link {
+    margin: 15px;
+  }
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background: #ccc;
+}
