@@ -1,10 +1,10 @@
 # Template one page
 
 El proposito principal de este template es que sea utilizado 
-para dar informacion sobre algún producto o servicio en especial una aplicación móvil debido a que ya cuenta con los gráficos
+para dar información sobre algún producto o servicio en especial una aplicación móvil debido a que ya cuenta con los gráficos
 para mayor facilidad.
 
-El diseño de esta plantilla fue tomado de un archivo psd de prueba, pero su estructura es bastante generica y puede ser 
+El diseño de esta plantilla fue tomado de un archivo psd de prueba, pero su estructura es bastante genérica y puede ser 
 utilizada para diversos fines.
 
 #Detalles técnicos
